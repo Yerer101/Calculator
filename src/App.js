@@ -182,33 +182,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* 
-      <button
-        onClick={() => {
-          dispatch({ type: ACTIONS.DELETE });
-        }}
-      >
-        DEL
-      </button> */
-}
-
-{
-  /* <button
-        className="span-two"
-        onClick={() => dispatch({ type: ACTIONS.CLEAR })}
-      >
-        AC
-      </button> */
-}
-
-{
-  /* 
-      <button
-        onClick={() => {
-          console.log("click");
-          dispatch({ type: ACTIONS.EVALUATE });
-        }}
-      ></button> */
-}
