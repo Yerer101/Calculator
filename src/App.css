@@ -26,6 +26,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
+    border-bottom: 3px solid white;
 }
 
 
