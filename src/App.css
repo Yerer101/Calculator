@@ -10,10 +10,10 @@ body {
 .calulator-grid {
     display: grid;
     margin: 1rem;
+    margin-top: 35px;
     justify-content: center;
-    margin-top: 100px;
     grid-template-columns: repeat(4, 6rem);
-    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
 }
 
 .calulator-grid .span-two {
