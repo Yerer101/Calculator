@@ -160,7 +160,6 @@ function App() {
         dispatch={dispatch}
         style=""
       />
-
       <OperationButton operation="/" dispatch={dispatch} />
       <DigitButton digit="1" dispatch={dispatch} />
       <DigitButton digit="2" dispatch={dispatch} />
@@ -176,7 +175,6 @@ function App() {
       <OperationButton operation="-" dispatch={dispatch} />
       <DigitButton digit="." dispatch={dispatch} />
       <DigitButton digit="0" dispatch={dispatch} />
-
       <ActionButton
         btnName="="
         action={ACTIONS.EVALUATE}
